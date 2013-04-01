@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>vezhlivy otkaz store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+      #footer {
+      	background: #000000;
+      	color: #fff;
+      	height: 128px;
+      }
+      .container {
+      	max-width: 800px;
+      }
+      #footer .container {
+      	text-align: center;
+      }
+      #footer a {
+				color: #FFFFFF;
+				font-family: Tahoma, Geneva, sans-serif;
+				font-size: small;
+				text-decoration: underline;
+      }
+      #footer .menu {
+      	background-color: #fff;
+      	text-align: center;
+      	color: #000;
+      }
+      #footer .menu a {
+      	color: #000;
+      }
+      #wrapper .bottom-left {
+      	position: static;
+      }
+      #kroogiWrapper {
+      	text-align: center;
+      }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="http://twitter.github.com/bootstrap/assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="http://twitter.github.com/bootstrap/examples/starter-template.html#">Vezhlivy Otkaz Store</a>
+          <div class="nav-collapse collapse">
+          	<ul class="nav">
+          		<li id="pfr" class="active"><a href="#payforart">PayForArt</a></li>
+          		<li id="rounds"><a href="#kroogi">Kroogi</a></li>
+          		<li><a href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;field-keywords=Vezhlivy+Otkaz" target="_blank">Amazon</a></li>
+          		<li><a href="https://itunes.apple.com/us/artist/vezhlivy-otkaz/id490347177" target="_blank">iTunes</a></li>
+          	</ul>
+            <ul class="nav pull-right">
+              <li id="fat-menu" class="dropdown">
+              	<a href="#" id="delivery" role="button" class="dropdown-toggle" data-toggle="dropdown">Delivery<b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="delivery">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.wyrgorod.ru/shop/details_880.html" target="_blank">Russia &amp; Vicinity</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#kroogi">Europe</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">LatAm</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.waysidemusic.com/Music-Products/Polite-Refusal---Geese-and-Swans__33-AltrOck-fslsh-Zen-spc-033.aspx" target="_blank">US</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Japan</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+			<div id="payforartWrapper">
+      	<script src='http://www.payforart.ru/scripts/payme.js'> </script>
+				<div id='widget_id' style='width:100%;height:950px;'></div>
+				<script>initWidget('widget_id', 14, '56f1994383a0d5dc6686df794e5511f0', '');</script>
+			</div>
+			<div id="kroogiWrapper" style="display:none;">
+				<object id="kroogi_player_711778" width="398" height="351" type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"> <param name="wmode" value="transparent" /> <param name="movie" value="http://cdn-assets0.kroogi.com/flash/audioplayer2.swf?1355732787" /> <param name="flashvars" value="playlist_url=http%3A%2F%2Fvezhlivyotkaz.kroogi.com%2Fplayer%2Fembedded_play_list.xml%3Falbum_id%3D711778%26link_tracks_to_albums%3Dtrue%26locale%3Den%26player_mode%3Dembedded&tracks_count=11" />
+				<param name="AllowScriptAccess" value="always" /> <embed name="kroogi_player_711778" src="http://cdn-assets0.kroogi.com/flash/audioplayer2.swf?1355732787" type="application/x-shockwave-flash" width="398" height="351" flashvars="playlist_url=http%3A%2F%2Fvezhlivyotkaz.kroogi.com%2Fplayer%2Fembedded_play_list.xml%3Falbum_id%3D711778%26link_tracks_to_albums%3Dtrue%26locale%3Den%26player_mode%3Dembedded&tracks_count=11" allowscriptaccess="always" wmode="transparent"> </embed> </object> 
+    	</div>
+    </div> <!-- /container -->
+
+		<div id="footer">
+			<div class="menu">
+        	<a href="http://otkaz.ru/history.shtml">about</a> | 
+        	<a href="http://otkaz.ru/news_kontsert.shtml">news</a> |
+					<a href="http://otkaz.ru/video_gusi_lebedi_gogol09.shtml">music</a> |  
+					<a href="http://otkaz.ru/note.shtml">scores</a> | 
+					<a href="http://otkaz.ru/foto2009.shtml">pictures</a> | 
+					<a href="http://otkaz.ru/manuscript.shtml">museum</a> |
+					<a href="http://otkaz.ru/store_pfa_eng.php">otkaz.store</a> | 
+					<a href="http://www.guestbook.ru/?user=otkaz">forum</a> | <a href="http://otkaz.ru/our_references.shtml">links</a>
+			</div>
+      <div class="container">
+      	<div>
+        	<a href="http://otkaz.ru/history.shtml">about</a> | 
+        	<a href="http://otkaz.ru/news_kontsert.shtml">news</a> |
+					<a href="http://otkaz.ru/video_gusi_lebedi_gogol09.shtml">music</a> |  
+					<a href="http://otkaz.ru/note.shtml">scores</a> | 
+					<a href="http://otkaz.ru/foto2009.shtml">pictures</a> | 
+					<a href="http://otkaz.ru/manuscript.shtml">museum</a> |
+					<a href="http://otkaz.ru/store_pfa_eng.php">otkaz.store</a> | 
+					<a href="http://www.guestbook.ru/?user=otkaz">forum</a> | <a href="http://otkaz.ru/our_references.shtml">links</a>
+				</div>
+        <a href="http://otkaz.ru/index.shtml"><img border="0" width="793" height="87" src="http://otkaz.ru/VO-bottom-re.jpg"></a>
+      </div>
+    </div>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script src="libs/jquery.ez-pinned-footer.js"></script>
+    <script>
+    	$(document).ready(function() {
+    		$("#footer").pinFooter();
+			});
+			$(window).resize(function() {
+    		$("#footer").pinFooter();
+			});
+			$('#pfr').click(function() {
+				$('#kroogiWrapper').fadeOut('slow');
+  			$('#payforartWrapper').fadeIn('slow');
+  			$('#rounds').removeClass('active');
+  			$('#pfr').addClass('active');
+			});
+			$('#rounds').click(function() {
+				$('#kroogiWrapper').fadeIn('slow');
+  			$('#payforartWrapper').fadeOut('slow');
+  			$('#rounds').addClass('active');
+  			$('#pfr').removeClass('active');
+			});
+  	</script>
+</body></html>
