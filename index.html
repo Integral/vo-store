@@ -19,6 +19,11 @@
       	height: 128px;
       	padding: none;
       	min-width: 600px;
+      	bottom: 0px;
+      	right: 0px;
+      	left: 0px;
+      	position: fixed;
+      	margin: 0px auto;
       }
       .container {
       	max-width: 800px;
@@ -119,9 +124,7 @@
 				<object id="kroogi_player_711778" width="398" height="351" type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"> <param name="wmode" value="transparent" /> <param name="movie" value="http://cdn-assets0.kroogi.com/flash/audioplayer2.swf?1355732787" /> <param name="flashvars" value="playlist_url=http%3A%2F%2Fvezhlivyotkaz.kroogi.com%2Fplayer%2Fembedded_play_list.xml%3Falbum_id%3D711778%26link_tracks_to_albums%3Dtrue%26locale%3Den%26player_mode%3Dembedded&tracks_count=11" />
 				<param name="AllowScriptAccess" value="always" /> <embed name="kroogi_player_711778" src="http://cdn-assets0.kroogi.com/flash/audioplayer2.swf?1355732787" type="application/x-shockwave-flash" width="398" height="351" flashvars="playlist_url=http%3A%2F%2Fvezhlivyotkaz.kroogi.com%2Fplayer%2Fembedded_play_list.xml%3Falbum_id%3D711778%26link_tracks_to_albums%3Dtrue%26locale%3Den%26player_mode%3Dembedded&tracks_count=11" allowscriptaccess="always" wmode="transparent"> </embed> </object> 
     	</div>
-    </div> <!-- /container -->
-
-		<div id="footer">
+    	<div id="footer">
 			<div class="menu">
         	<a href="http://otkaz.ru/history.shtml">about</a> | 
         	<a href="http://otkaz.ru/news_kontsert.shtml">news</a> |
@@ -146,6 +149,7 @@
         <a href="http://otkaz.ru/index.shtml"><img border="0" width="793" height="87" src="http://otkaz.ru/VO-bottom-re.jpg"></a>
       </div>
     </div>
+    </div> <!-- /container -->
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -153,12 +157,12 @@
     <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
     <script src="libs/jquery.ez-pinned-footer.js"></script>
     <script>
-    	$(document).ready(function() {
+    	/*$(document).ready(function() {
     		$("#footer").pinFooter();
 			});
 			$(window).resize(function() {
     		$("#footer").pinFooter();
-			});
+			});*/
 			$('#pfr').click(function() {
 				$('#kroogiWrapper').fadeOut('slow');
   			$('#payforartWrapper').fadeIn('slow');
